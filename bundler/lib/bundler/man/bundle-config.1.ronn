@@ -406,3 +406,9 @@ outlines the available environment variables and their default values
     BUNDLE_USER_CACHE : $BUNDLE_USER_HOME/cache
     BUNDLE_USER_CONFIG : $BUNDLE_USER_HOME/config
     BUNDLE_USER_PLUGIN : $BUNDLE_USER_HOME/plugin
+   
+For example, to follow the XDG directory specification add the following
+   
+   BUNDLE_USER_CACHE : $XDG_CONFIG_HOME/bundle
+   BUNDLE_USER_CONFIG : $XDG_CONFIG_CACHE/bundle
+   BUNDLE_USER_PLUGIN : $XDG_CONFIG_DATA/bundle
